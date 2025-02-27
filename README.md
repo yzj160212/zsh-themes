@@ -41,18 +41,26 @@ nano ~/.zshrc
 ```bash
 source ~/.zshrc
 ```
-## 安装字体
+## 安装 Powerline 字体
 
 -  `为了展示 Agnoster 主题提示符里的三角形，需要 Powerline 字体库的支持`
+-  克隆 Powerline 字体仓库
 ```bash
 git clone https://github.com/powerline/fonts.git
 ```
+-  安装字体
+
 ```bash
 cd fonts
-```
-```bash
 ./install.sh
 ```
+-  清理(安装完字体以后,删除字体文件夹)
+
+```bash
+cd ..
+rm -rf fonts
+```
+
 ## 更换 Dracula 主题
 
 > ​		[Dracula->zsh](https://draculatheme.com/zsh)
