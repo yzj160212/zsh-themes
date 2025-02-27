@@ -1,10 +1,15 @@
 # 设置oh-my-zsh主题
 
-## 下载zsh/git
+## 下载zsh/git(debian系统)
 
 ```bash
 sudo apt update
 sudo apt install zsh git
+```
+## brew下载zsh/git/wget(Mac系统)
+
+```bash
+brew install wget git zsh
 ```
 -  安装oh-my-zsh
 
