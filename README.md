@@ -41,7 +41,18 @@ nano ~/.zshrc
 ```bash
 source ~/.zshrc
 ```
+## 安装字体
 
+-  `为了展示 Agnoster 主题提示符里的三角形，需要 Powerline 字体库的支持`
+```bash
+git clone https://github.com/powerline/fonts.git
+```
+```bash
+cd fonts
+```
+```bash
+./install.sh
+```
 ## 更换 Dracula 主题
 
 > ​		[Dracula->zsh](https://draculatheme.com/zsh)
@@ -106,7 +117,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 -  打开nano编辑器
 
-```
+```bash
 nano ~/.zshrc
 ```
 
