@@ -71,40 +71,26 @@ source ~/.zshrc
 ⚠️注意：一定要设置好终端字体，否则会出现图标无法正常显示的现象，可以下载powerlevel10k官网推荐的四个字体：`https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k`
 
 
-## 命令补全
+## 安装插件
+-  命令补全
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-```
-nano ~/.zshrc
-```
 
--  增加内容`zsh-autosuggestions`
-
-```bash
-plugins=(
-	git
-	zsh-autosuggestions
-)
-```
--  更新配置
-
-```bash
-source ~/.zshrc
-```
-
-
-## 代码高亮
+-  代码高亮
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
+-  打开nano编辑器
+
 ```
 nano ~/.zshrc
 ```
 
--  增加内容`zsh-syntax-highlighting`
+-  修改内容
 
 ```bash
 plugins=(
@@ -119,3 +105,5 @@ plugins=(
 ```bash
 source ~/.zshrc
 ```
+
+## 欧了🐒
