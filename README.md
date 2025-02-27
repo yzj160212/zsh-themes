@@ -28,7 +28,21 @@ cd ~/.oh-my-zsh/themes && ls
 ```
 如果更换`oh-my-zsh`自带主题，需修改`ZSH_THEME=XXX`，例如`ZSH_THEME="cloud"`
 
-## 下载更换 Dracula 主题
+## 更换 Agnoster 主题
+
+```bash
+nano ~/.zshrc
+```
+
+更改内容`ZSH_THEME="agnoster"`
+
+-  更新配置
+
+```bash
+source ~/.zshrc
+```
+
+## 更换 Dracula 主题
 
 > ​		[Dracula->zsh](https://draculatheme.com/zsh)
 
@@ -73,6 +87,7 @@ nano ~/.zshrc
 ```bash
 source ~/.zshrc
 ```
+
 ⚠️注意：一定要设置好终端字体，否则会出现图标无法正常显示的现象，可以下载powerlevel10k官网推荐的四个字体：`https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k`
 
 
